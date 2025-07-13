@@ -22,7 +22,7 @@ export default $config({
     api.route("GET /api/{api+}",
       //https://ion.sst.dev/docs/component/aws/function/#functionargs
       {
-        bundle: "src",
+//        bundle: "src",
         handler: "src/lambda.handler",
         memory: "128 MB",
         link: [secret]
